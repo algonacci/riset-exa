@@ -1,0 +1,10 @@
+[project]
+name = "riset-exa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "exa-py>=2.25.0",
+    "python-dotenv>=1.2.4",
+]
