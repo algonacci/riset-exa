@@ -1,9 +1,7 @@
 from dotenv import load_dotenv
 load_dotenv()
 import os
-
 from exa_py import Exa
-
 exa = Exa(os.environ["EXA_API_KEY"])
 
 result = exa.search(
